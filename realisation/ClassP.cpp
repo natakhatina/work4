@@ -139,7 +139,7 @@ void Material::Check() {
     for (int i=0;i<n;i++)
         S=S+F[i];
     // if ((F.size()==n)&&(V.size()==n)&&(S=100)){
-    if ((F.size()==n)&&(V.size()==n)&&(S=100)){
+    if ((F.size()==n)&&(V.size()==n)&&(S==100)){
         cout<<"Material is checked. Everything is absolutely amazing!"<<endl;
     }
     else {
